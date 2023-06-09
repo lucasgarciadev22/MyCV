@@ -2,131 +2,113 @@
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
-    <title>CV - Lucas Garcia</title>
-    <link rel="stylesheet" href="./Styles/styles.css" />
+    <title>Teste</title>
+    <link rel="stylesheet" href="/Styles/styles.css" />
   </head>
+
   <body>
+    <!-- Header -> contém meu nome , posição e imagem de perfil -->
     <header>
-      <div class="header-container">
-        <h1>CV - Lucas Garcia</h1>
-        <img
-          class="profile-pic"
-          src="/Images/profile.jpg"
-          alt="Profile Picture"
-        />
-      </div>
+      <img
+        class="profile-image"
+        src="/Images/profile.jpg"
+        alt="Imagem do perfil"
+      />
+      <h1 class="name">Lucas Miguel Garcia da Silva</h1>
+      <h2 class="position">Desenvolvedor Fullstack C#</h2>
     </header>
 
     <main>
+      <!-- Seção "Sobre mim -> contém um breve resumo sobre minha experiência geral até o momento, e um apanhado geral das minhas habilidades" -->
       <section class="about">
+        <h2>Sobre mim</h2>
         <div class="about-container">
-          <h2>Sobre mim</h2>
+          <!-- Bio -->
           <p>
-            Sou um desenvolvedor Full Stack com cerca de dois anos de
-            experiência, especializado em aplicações desktop complexas com
-            C#/.NET, incluindo projetos desafiadores no desenvolvimento de
-            softwares CAD, onde a precisão e a performance são essenciais. Além
-            disso, tenho experiência no desenvolvimento de Web APIs utilizando
-            tecnologias como React e integração com serviços em nuvem, como
-            Azure. Com essa combinação de habilidades, criei soluções robustas e
-            escaláveis para atender às necessidades dos clientes. Busco
-            constantemente aprimorar minhas habilidades e acompanhar as últimas
-            tendências tecnológicas. Tenho um forte compromisso com a qualidade
-            e a eficiência do código, acreditando que um código bem estruturado
-            e documentado é fundamental para o sucesso a longo prazo dos
-            projetos. Estou em busca de novos desafios e oportunidades para
-            aplicar meu conhecimento e experiência. Se você procura um
-            desenvolvedor Full Stack com experiência em C#/.NET, aplicações
-            desktop complexas e criação de Web APIs com React e Azure, estou
-            pronto para contribuir em projetos emocionantes e fazer parte de uma
-            equipe talentosa. Ficarei feliz em discutir oportunidades de
-            colaboração ou fornecer mais informações sobre meu trabalho. Entre
-            em contato comigo para mais detalhes." Certifique-se de personalizar
-            a bio com suas próprias informações e experiências relevantes
+            Sou um desenvolvedor Full Stack com dois anos de experiência,
+            especializado em aplicações desktop complexas com C#/.NET, incluindo
+            projetos desafiadores no desenvolvimento de softwares CAD, onde a
+            precisão e a performance são essenciais. Além disso eu tenho
+            experiência no desenvolvimento de soluções web com React e serviços
+            de nuvem como Azure. Fora do ambiente principal de trabalho, costumo
+            criar conteúdo internacional de tecnologia, usando a plataforma
+            Medium
           </p>
         </div>
       </section>
 
+      <!-- Seção "Formação Educacional -> contém certificados dos principais cursos de tecnologia e faculdade em andamento" -->
       <section class="education">
-        <div class="education-container">
-          <h2>Formação Educacional</h2>
-          <ul>
-            <li>
-              <h3>
-                Bacharelado em Engenharia de Software/ UNINTER - 2022 (Cursando)
-              </h3>
-            </li>
-            <li>
-              <div class="cert-container">
-                <h3>New U-Best Advanced Certified/ UNINTER - 2022</h3>
-                <img
-                  class="cert-img"
-                  src="/Images/english_uninter.png"
-                  alt="Certificado Curso de Inglês Avançado na UNINTER"
-                />
-              </div>
-            </li>
-            <li>
-              <div class="cert-container">
-                <h3>Formação NET Developer Bootcamp/ DIO - 2023</h3>
-                <img
-                  class="cert-img"
-                  src="/Images/net_bootcamp.png"
-                  alt="Certificado Bootcamp do ecossistema NET na DIO "
-                />
-              </div>
-            </li>
-            <div class="cert-container">
-              <h3>Spread Fullstack Developer Bootcamp/ DIO - 2023</h3>
-              <img
-                class="cert-img"
-                src="/Images/fullstack_bootcamp.png"
-                alt="Certificado Bootcamp de React, NodeJs e outras tecnologias na DIO "
-              />
-            </div>
-          </ul>
+        <h2>Formação Educacional</h2>
+        <div class="certificate">
+          <img
+            class="certificate-image"
+            src="/Images/uninter.jpg"
+            alt="Certificado da Faculdade"
+          />
+          <p class="certificate-text">Bacharelado em Engenharia de Software (cursando) na UNINTER</p>
+        </div>
+        <div class="certificate">
+          <img
+            class="certificate-image"
+            src="/Images/net_bootcamp.png"
+            alt="Certificado do Bootcamp .NET"
+          />
+          <p class="certificate-text">Certificado do Bootcamp .NET na DIO</p>
+        </div>
+        <div class="certificate">
+          <img
+            class="certificate-image"
+            src="/Images/fullstack_bootcamp.png"
+            alt="Certificado do Bootcamp Fullstack"
+          />
+          <p class="certificate-text">Certificado do Bootcamp Fullstack na DIO</p>
+        </div>
+        <div class="certificate">
+          <img
+            class="certificate-image"
+            src="/Images/english_uninter.png"
+            alt="Certificado de Inglês Avançado"
+          />
+          <p class="certificate-text">Certificado de Inglês Avançado na UNINTER</p>
         </div>
       </section>
 
+      <!-- Seção "Portfólio -> contém links dos meus principais repositórios e artigos online" -->
       <section class="portfolio">
+        <h2>Portfólio</h2>
         <div class="portfolio-container">
-          <h2>Portfólio</h2>
-          <ul>
-            <li>
-              <div class="link-container">
-                <img class="ptf-img" src="" alt="Github logo" />
-                <a href="link_do_projeto1"
-                  >Meus Repositórios de .NET no Github</a
-                >
-              </div>
-            </li>
-            <li>
-              <div class="link-container">
-                <img class="ptf-img" src="" alt="Github logo" />
-                <a href="link_do_projeto1"
-                  >Meus Repositórios de React no Github</a
-                >
-              </div>
-            </li>
-            <li>
-              <div class="link-container">
-                <img class="ptf-img" src="" alt="Behance logo" />
-                <a href="link_do_projeto1">Meus Projetos de UX/UI no Behance</a>
-              </div>
-            </li>
-            <li>
-              <div class="link-container">
-                <img class="ptf-img" src="" alt="Medium logo" />
-                <a href="link_do_projeto1">Meus Artigos Publicados no Medium</a>
-              </div>
-            </li>
-          </ul>
+          <div class="portfolio-item">
+            <img class="portfolio-icon" src="/Images/github.png" alt="Ícone do GitHub" />
+            <a href="link_perfil_github">Meu perfil no GitHub</a>
+          </div>
+          <div class="portfolio-item">
+            <img class="portfolio-icon" src="/Images/behance.png" alt="Ícone do Behance" />
+            <a href="link_perfil_behance">Meus trabalhos de UX/UI no Behance</a>
+          </div>
+          <div class="portfolio-item">
+            <img class="portfolio-icon" src="/Images/medium.png" alt="Ícone do Medium" />
+            <a href="link_perfil_medium">Meus artigos publicados no Medium</a>
+          </div>
+          <div class="portfolio-item">
+            <img class="portfolio-icon" src="/Images/gitlab.jpg" alt="Ícone do GitLab" />
+            <a href="link_perfil_gitlab">Meu perfil no GitLab</a>
+          </div>
         </div>
       </section>
 
+      <!-- Seção "Contato -> contém informações para entrar em contato comigo através de email e redes sociais" -->
       <section class="contact">
+        <h2>Contato</h2>
         <div class="contact-container">
-          <h2>Contato</h2>
+          <div class="contact-item">
+            <img class="contact-icon" src="/Images/linkedin.png" alt="Ícone do LinkedIn" />
+            <a href="link_linkedin">LinkedIn</a>
+          </div>
+          <div class="contact-item">
+            <img class="contact-icon" src="/Images/gmail.png" alt="Ícone de E-mail" />
+            <a href="mailto:seu_email">E-mail</a>
+          </div>
         </div>
       </section>
     </main>
