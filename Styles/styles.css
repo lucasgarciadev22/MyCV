@@ -53,6 +53,10 @@ header{
 }
 
 /* Estilos do header */
+.info-text{
+  font-weight: lighter;
+  color: darkgrey;
+}
 .name {
   color: #6b53a5;
 }
